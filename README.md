@@ -1,19 +1,19 @@
 ### Application for forming a selection of programming tasks for every day.
 
-####Specifications:
+#### Specifications:
 - PHP 8.0
 - MySQL 5.7
 
-####Application launch:
+#### Application launch:
 1. Configure .env file.
 2. run artisan command 'php artisan migrate --seed' (Run migrations and add categories).
 
-####Postman request config:
+#### Postman request config:
 - Authorization - bearer token
 - Headers - Accept => application/json
 - Body - x-www-form-urlencoded
 
-####API capabilities:
+#### API capabilities:
 ##### Authentication
 - Registration **(POST: api/registration)**
     - Important fields (name, email, password, password_confirmation, device_name).
