@@ -151,9 +151,4 @@ class TaskService
             ]);
         }
     }
-
-    public function hype()
-    {
-        return 1;
-    }
 }
